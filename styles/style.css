@@ -6,7 +6,22 @@
 body{
     font-family: 'Merriweather', serif;
 }
+main{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #F00;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
 
+/* header related styles */
 header{
     margin: 50px 140px 0;
 }
@@ -64,4 +79,35 @@ header{
     font-size: 48px;
     color: #070211;
     margin-bottom: 48px;
+}
+
+/* party section related styles */
+.party-container {
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 16px;
+    
+}
+.party-content{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.party-title{
+    color: #FFF;
+    font-size: 64px;
+    letter-spacing: 7px;
+}
+.party-description{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: lightgray;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
