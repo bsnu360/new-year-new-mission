@@ -19,7 +19,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Banner-Image.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border-radius: 25px;
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,4 +35,33 @@ header{
 .banner-title{
     font-size: 72px;
     font-weight: 900;
+}
+
+/* discount section styles */
+.discount-container{
+    display: flex;
+    justify-content: center;
+    margin: 120px 0;
+}
+.discount-content{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.discount-content-title{
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+.discount-content-description{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.discount-content-title,
+.discount-content-description{
+    color: #F00;
+}
+.discount-content-sub-title{
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 48px;
 }
