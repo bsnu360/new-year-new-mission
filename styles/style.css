@@ -146,3 +146,53 @@ header{
 /* .portfolio-single-item img:hover{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 } */
+
+/* Subscribe related styles */
+.subscribe-container{
+    height: 600px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-content{
+    width: 890px;
+    text-align: center;
+}
+.subscribe-title{
+    font-size: 48px;
+    color: #070211;
+    margin: 40px 0;
+}
+form{
+    width: 620px;
+    display: flex;
+    margin: 0 auto;
+}
+input{
+    border: 0;
+    padding: 20px 0;
+}
+
+input[type="email"]{
+    background-color: #FFF;
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+input[type="submit"]{
+    width: 30%;
+    background-color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
