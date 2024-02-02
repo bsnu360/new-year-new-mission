@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+/* common related styles */
+body{
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    margin: 50px 140px 0;
+}
+
+/* banner related styles */
+.banner-container {
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Banner-Image.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-content{
+    width: 600px;
+    color: #FFF;
+    text-align: center;
+}
+.banner-sub-title{
+    font-size: 32px;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+}
