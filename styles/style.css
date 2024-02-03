@@ -196,3 +196,50 @@ input[type="submit"]{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+
+/* footer related styles */
+footer{
+    background-color: #070211;
+    color: #FFF;
+    padding: 140px;
+    margin-top: 120px;
+}
+.address p{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.address-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.address a{
+    text-decoration: none;
+    color: #FFF;
+}
+.contact img{
+    margin-right: 20px;
+}
+
+.social-links{
+    margin: 48px 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.copyright a{
+    text-decoration: none;
+    color: #FFF;
+}
