@@ -190,9 +190,9 @@ header{
 .portfolio-single-item img{
     width: 340px;
 }
-/* .portfolio-single-item img:hover{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-} */
+.portfolio-single-item:hover img{
+    opacity: 0.3;
+}
 
 /* Subscribe related styles */
 .subscribe-container{
